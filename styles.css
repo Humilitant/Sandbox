@@ -1,0 +1,44 @@
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+  }
+
+  .mdl-grid {
+    width: auto;
+  }
+  
+  .mdl-cell {
+    box-sizing: border-box;
+    background-color: #BDBDBD;
+    height: 200px;
+    padding-left: 8px;
+    padding-top: 4px;
+    color: white;
+  }
+
+  .demo-card-wide {
+    background-color: azure;
+  }
+
+  .mdl-grid:first-of-type .mdl-cell {
+    height: 50px;
+  }
+
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.icon-anchor {
+  text-align: center;
+  padding: 10px;
+}
+
+.page-content {
+}
